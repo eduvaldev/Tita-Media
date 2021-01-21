@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- font montserrat -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- font awesome --> 
+    <script src="https://kit.fontawesome.com/dbeb058e52.js" crossorigin="anonymous"></script>
+    <title>Sneak</title>
+</head>
+
+<body>
+    <!-- Header nav -->
+   <header>
+      <a href="#" class="logo"> <img src="./multimedia/logo.png"> </a>
+      <div class="nav-toggle" onclick="showNav()"></div>
+      <nav id="nav">
+        <ul>
+          <li class="head-li-active"><a href="#"> All </a></li>
+          <li><a href="#"> Branding </a></li>
+          <li><a href="#"> Web </a></li>
+          <li><a href="#"> Photography </a></li>
+          <li><a href="#"> app </a></li>
+          <li><a href="#" class="search"><i class="fas fa-search"></i></a></li>
+        </ul>
+      </nav>
+      <div class="clear-fix"></div>
+   </header>
+   <!-- Banner -->
+   <section class="banner">
+      <h3>EXPLORE BEYOND HORIZON</h3>
+      <p>Magna mundi referrentur qou, no rebum dignissim qui.</p>
+      <p>Per quodsi accusata id, agam labores</p>
+      <button><a href="#"> VIEW OUR WORK </a></button>
+   </section>
+   <!-- Tags -->
+   <section class="section-tags">
+      <div class="order-tags">
+        <button class="none"> <i class="fas fa-th-large"></i> </button>  
+        <button> <i class="fas fa-list"></i> </button>
+      </div>
+      <div class="option-tags">
+        <button onclick="showTabs(0)"> All </button>
+        <button onclick="showTabs(1)"> Branding </button>
+        <button onclick="showTabs(2)"> Web </button>
+        <button onclick="showTabs(3)"> Photography </button>
+        <button onclick="showTabs(4)"> App </button>
+      </div>
+      <div class="content-tag">
+        <div id="load-content" class="load-content">
+          <div class="carga"></div>
+        </div>
+        <div class="tag-panel">
+          <div class="cont-info">
+          </div>
+        </div>
+        <div class="tag-panel">
+          <div class="cont-info">
+           
+          </div>
+        </div>
+        <div class="tag-panel">
+          <div class="cont-info">
+
+          </div>
+        </div>
+        <div class="tag-panel" >
+          <div  class="cont-info">
+            
+          </div>
+        </div>
+        <div class="tag-panel">
+          <div class="cont-info">
+
+          </div>
+        </div>
+      </div>
+      <button onclick="hiddenShow()" id='show-more'> Show Me More</button>
+   </section>
+   <!-- Footer -->
+   <footer>
+     <p> <i class="far fa-copyright"></i> 2021 - <span>Sneak</span> All Right Reserved </p>
+     <div class="social-net">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-dribbble"></i>
+      <i class="fab fa-google-plus-g"></i>
+      <i class="fab fa-youtube"></i>
+     </div>
+   </footer>
+   <script src="./script/index.js"></script>
+</body>
+</html>
